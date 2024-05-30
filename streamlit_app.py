@@ -8,9 +8,8 @@ st.text("Welcome to My Streamlit website!")
 st.markdown("""
     ## Topic: Football (Soccer)
 
-    <span style='color:black; font-weight:bold;'>
     
-ChatGPT
+
 Football, or soccer as it's known in some parts of the world, 
 is a sport that ignites passion and excitement across the globe. 
 With its roots tracing back centuries, football has evolved into one of the most popular and widely played sports today. 
@@ -43,7 +42,7 @@ st.markdown("""
             
             <span style='color:black; font-weight:bold;'>
             
-ChatGPT
+
 Understanding the minutes a player spends on the field during a real game holds 
 significant importance for various stakeholders within football:
 1) Performance Evaluation: Tracking a player;s minutes on the field provides valuable insights
