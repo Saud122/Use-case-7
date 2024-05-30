@@ -1,18 +1,27 @@
 import streamlit as st
 
 
-st.write("if you would like to see the streamlit web, please copy this link: https://use-case-5-39e3nrfrxck3whxefuvujd.streamlit.app/  ")
 
 st.text("Welcome to My Streamlit website!")
 
 # Markdown text
 st.markdown("""
-    ## Topic: Jadarat
+    ## Topic: Football (Soccer)
 
     <span style='color:black; font-weight:bold;'>
-    Jadarat.sa is a platform dedicated to fostering growth, development, 
-    and empowerment. their mission is to equip individuals, organizations, 
-    and communities with the skills, knowledge, and resources needed to thrive in today's dynamic world.
+    
+ChatGPT
+Football, or soccer as it's known in some parts of the world, 
+is a sport that ignites passion and excitement across the globe. 
+With its roots tracing back centuries, football has evolved into one of the most popular and widely played sports today. 
+Played between two teams of eleven players each, the objective is simple: 
+to score goals by kicking a ball into the opposing team's net. 
+However, within this simplicity lies a complexity that captivates millions. 
+From the fast-paced action on the field to the strategic maneuvers orchestrated by coaches,
+football is a game of skill, teamwork, and sheer determination. 
+It transcends cultural boundaries, uniting people of all backgrounds in a shared love for the beautiful game. 
+Whether it's the thrill of a last-minute goal, the drama of a penalty shootout, or the glory of lifting a championship trophy, 
+football has a way of captivating hearts and minds like few other sports can.
     </span>
 
 
@@ -20,7 +29,7 @@ st.markdown("""
 
 st.markdown("\n \n")
 
-st.text(" Here are the Five questions:  ")
+
 
 st.markdown("\n \n")
 st.markdown("\n \n")
@@ -33,9 +42,20 @@ st.markdown("""
 st.markdown("""
             
             <span style='color:black; font-weight:bold;'>
-            Understanding regional job posting proportions in Saudi Arabia helps job seekers target their search efforts more effectively, 
-            increasing their chances of finding relevant opportunities in areas with higher demand for their skills, 
-            thus saving time and effort. </span>
+            
+ChatGPT
+Understanding the minutes a player spends on the field during a real game holds 
+significant importance for various stakeholders within football:
+1) Performance Evaluation: Tracking a player;s minutes on the field provides valuable insights
+into their contribution to the team's.
+
+2) Strategic Decision-Making: Coaches rely on data regarding player minutes to make informed decisions during matches.
+3) Contractual and Financial Implications: In professional footabll,
+player contracts, bounses, and incetives may be tied to the amount of playing time they accrue.
+
+So, chart below will show you minutes played by players < 8000
+
+</span>
             """, unsafe_allow_html=True )
 
 
@@ -49,17 +69,15 @@ st.image('Minutes played.png', caption='Minutes played.png', use_column_width=Tr
 st.markdown("\n \n")
 st.markdown("\n \n")
 
-st.markdown("""
-    <span style='color:black; font-weight:bold;'> Q2) Is there a gender preference indicated in the job postings?</span>
-""", unsafe_allow_html=True)
+
+
 
 
 st.markdown("\n \n")
 
 st.markdown("""
-            <span style='color:black; font-weight:bold;'> Identifying if there's a gender preference specified in job postings allows job seekers to navigate towards workplaces
-            that prioritize diversity and inclusion, fostering environments where all individuals have equal opportunities for employment
-            and advancement.</span>
+            <span style='color:black; font-weight:bold;'>
+            </span>
             """, unsafe_allow_html=True )
 
 
@@ -79,16 +97,14 @@ st.markdown("\n \n")
 st.markdown("\n \n")
 
 st.markdown("""
-    <span style='color:black; font-weight:bold;'> Q3) What is the expected salary range for fresh graduates?</span>
+    
 """, unsafe_allow_html=True)
 
 
 st.markdown("\n \n")
 
 st.markdown("""
-            <span style='color:black; font-weight:bold;'> Understanding the expected salary range for fresh graduates is crucial
-             because it helps them set realistic salary expectations and negotiate fair compensation during job interviews,
-             ensuring they receive appropriate remuneration for their qualifications and skills.</span>
+            <span style='color:black; font-weight:bold;'></span>
             """, unsafe_allow_html=True )
 
 
@@ -105,22 +121,6 @@ st.image('K-means clustering.png', caption='K-means clustering.png', use_column_
 st.markdown("\n \n")
 st.markdown("\n \n")
 
-st.markdown("""
-    <span style='color:black; font-weight:bold;'> Q4: Are job opportunities predominantly targeted at individuals with experience, or is there room for fresh graduates as well?</span>
-""", unsafe_allow_html=True)
-
-
-st.markdown("\n \n")
-
-st.markdown("""
-            <span style='color:black; font-weight:bold;'> Based on the chart below it's targeting fresh graduates with no prior experience.</span>
-            """, unsafe_allow_html=True )
-
-
-
-st.markdown("\n \n")
-st.markdown("\n \n")
-
 
 # Display an image from a local file
 st.image('scatter plot.png', caption='scatter plot.png', use_column_width=True)
@@ -129,19 +129,4 @@ st.image('scatter plot.png', caption='scatter plot.png', use_column_width=True)
 st.markdown("\n \n")
 st.markdown("\n \n")
 
-st.markdown("""
-    <span style='color:black; font-weight:bold;'> Q5: Which region has the highest job postings in Saudi Arabia for fresh graduates with no experience?</span>
-""", unsafe_allow_html=True)
-
-
-st.markdown("\n \n")
-
-st.markdown("""
-            <span style='color:black; font-weight:bold;'> The region that has the highest job postings in Saudi Arabia for fresh graduates with no experience is shown in the chart below. </span>
-            """, unsafe_allow_html=True )
-
-
-
-st.markdown("\n \n")
-st.markdown("\n \n")
 
