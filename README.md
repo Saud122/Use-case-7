@@ -1,7 +1,7 @@
 # Use case 7 (Lab)
 
 
-# Linkes:
+# Links:
 
 1) Streamlit:  https://use-case-7-rnbaht6yrbghsrmw6oxzdj.streamlit.app/
 
